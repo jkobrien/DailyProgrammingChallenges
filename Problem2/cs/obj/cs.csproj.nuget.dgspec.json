@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Code\\GitHub\\DailyProgrammingChallenges\\Problem2\\cs\\cs.csproj": {}
+  },
+  "projects": {
+    "C:\\Code\\GitHub\\DailyProgrammingChallenges\\Problem2\\cs\\cs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\GitHub\\DailyProgrammingChallenges\\Problem2\\cs\\cs.csproj",
+        "projectName": "cs",
+        "projectPath": "C:\\Code\\GitHub\\DailyProgrammingChallenges\\Problem2\\cs\\cs.csproj",
+        "packagesPath": "C:\\Users\\johnobr\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\GitHub\\DailyProgrammingChallenges\\Problem2\\cs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\johnobr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://mpsit.pkgs.visualstudio.com/_packaging/Ess-Packages-Unstable/nuget/v3/index.json": {},
+          "https://mpsit.pkgs.visualstudio.com/_packaging/SFP-Packages/nuget/v3/index.json": {},
+          "https://ossmsft.pkgs.visualstudio.com/_packaging/OSS_All/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
