@@ -15,7 +15,7 @@ How to run
 1. Open PowerShell (pwsh).
 2. Run the script (it contains tests and will exit 0 on success):
 
-pwsh -NoProfile -ExecutionPolicy Bypass -File "c:\Code\GitHub\DailyProgrammingChallenges\ProblemOfTheDay\2025-09-04_LinkedListGroupReverse\reverse_linked_list_in_groups.ps1"
+pwsh -NoProfile -ExecutionPolicy Bypass -File "./reverse_linked_list_in_groups.ps1"
 
 What the script does
 - Builds example linked lists for several test cases.
