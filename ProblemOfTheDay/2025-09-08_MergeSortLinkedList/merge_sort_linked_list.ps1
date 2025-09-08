@@ -62,9 +62,9 @@ function Build-LinkedList($arr) {
 # Print linked list
 function Print-LinkedList($head) {
     $curr = $head
-    $out = @()
+    $out = [System.Collections.ArrayList]::new()
     while ($curr) {
-        $out += $curr.data
+        [void]$out.Add($curr.data)
         $curr = $curr.next
     }
     Write-Output ($out -join ' -> ')
