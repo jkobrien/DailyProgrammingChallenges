@@ -16,7 +16,7 @@ function Run-Test {
         [string]$holes,
         [int]$expected
     )
-    $proc = Start-Process -FilePath pwsh -ArgumentList @('-NoProfile','-NonInteractive','-Command',"& '$scriptPath' -Mice '$mice' -Holes '$holes'") -NoNewWindow -Wait -PassThru -RedirectStandardOutput -RedirectStandardError 2>&1
+    $proc = Start-Process -FilePath pwsh -ArgumentList @('-NoProfile','-NonInteractive','-Command',"& '$scriptPath' -Mice '$mice' -Holes '$holes'") -NoNewWindow -Wait -PassThru -RedirectStandardOutput -RedirectStandardError
     $output = $proc.StandardOutput.ReadToEnd().Trim()
     if ($output -eq '') {
         $output = $proc.StandardError.ReadToEnd().Trim()
