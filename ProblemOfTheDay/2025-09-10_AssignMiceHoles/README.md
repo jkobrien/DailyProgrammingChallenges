@@ -1,4 +1,4 @@
-Assign Mice Holes (GeeksforGeeks POTD)
+# Assign Mice Holes (GeeksforGeeks POTD)
 
 Note about fetching POTD for 2025-09-10:
 I attempted to fetch the GeeksforGeeks "Problem of the Day" for 10 Sep 2025 but the POTD page for that date is not available on the site at the time of fetching. The most recent published POTD available in the listing was 9 Sep 2025: "Assign Mice Holes" (problem page: https://www.geeksforgeeks.org/problems/assign-mice-holes3053/1). Therefore this folder contains a PowerShell solution for the 9 Sep 2025 POTD "Assign Mice Holes".
