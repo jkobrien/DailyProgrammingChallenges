@@ -59,7 +59,7 @@ function Get-MinimumJumps {
             $currentEnd = $farthest
 
             # If we cannot extend the range from here, array end is unreachable
-            if ($currentEnd -le $i -and $i -lt $n - 1) { return -1 }
+            if ($farthest -le $i -and $i -lt $n - 1) { return -1 }
 
             # If we've already reached or surpassed the last index, we can stop
             if ($currentEnd -ge $n - 1) { break }
