@@ -52,6 +52,6 @@ function Minimize-HeightsII {
 }
 
 # If this file is invoked directly, allow a quick example usage.
-if ($MyInvocation.InvocationName -eq '.') {
+if ($MyInvocation.InvocationName -ne '.') {
     Write-Host "Example: [1, 5, 8, 10], K=2 =>" (Minimize-HeightsII -Heights @(1,5,8,10) -K 2)
 }
