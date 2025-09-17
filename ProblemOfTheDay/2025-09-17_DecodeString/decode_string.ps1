@@ -23,8 +23,8 @@ Space complexity: O(d) where d is the maximum nesting depth
 function Invoke-DecodeString {
     [CmdletBinding()]
     param(
-        [Parameter(Mandatory=$true, Position=0)]
-        [string]$EncodedString
+        [Parameter(Position=0)]
+        [string]$EncodedString = ""
     )
 
     if ([string]::IsNullOrEmpty($EncodedString)) {

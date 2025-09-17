@@ -14,7 +14,7 @@ $cases = @(
     @{Input=''; Expected=''; Name='Empty string'},
     @{Input='abc'; Expected='abc'; Name='No encoding'},
     @{Input='10[a]'; Expected='aaaaaaaaaa'; Name='Double digit count'},
-    @{Input='2[a3[b2[c]]]'; Expected='abccbccabccbcc'; Name='Deep nesting'}
+    @{Input='2[a3[b2[c]]]'; Expected='abccbccbccabccbccbcc'; Name='Deep nesting'}
 )
 
 $failures = 0
