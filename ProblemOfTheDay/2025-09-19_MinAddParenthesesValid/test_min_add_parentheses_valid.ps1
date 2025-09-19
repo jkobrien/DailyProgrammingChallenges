@@ -189,7 +189,7 @@ function Test-EdgeCasesDetailed {
     
     $longString2 = ")" * 1000 + "(" * 500  # 500 unmatched closing
     $result2 = Get-MinAddParenthesesValid $longString2
-    Write-Host "1000 ')' + 500 '(': $result2 (Expected: 1000)" -ForegroundColor $(if ($result2 -eq 1000) { "Green" } else { "Red" })
+    Write-Host "1000 ')' + 500 '(': $result2 (Expected: 1500)" -ForegroundColor $(if ($result2 -eq 1500) { "Green" } else { "Red" })
 }
 
 # Main execution
