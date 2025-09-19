@@ -41,7 +41,6 @@ function Test-MinAddParenthesesValid {
         @{ Input = "())" ; Expected = 1 ; Category = "Mixed" ; Description = "One unmatched closing" }
         @{ Input = "(()" ; Expected = 1 ; Category = "Mixed" ; Description = "One unmatched opening" }
         @{ Input = ")()(" ; Expected = 2 ; Category = "Mixed" ; Description = "One unmatched closing + one unmatched opening" }
-        @{ Input = "(()" ; Expected = 1 ; Category = "Mixed" ; Description = "Nested with one unmatched opening" }
         @{ Input = "())" ; Expected = 1 ; Category = "Mixed" ; Description = "Valid pair with extra closing" }
         
         # Complex nested cases
