@@ -41,7 +41,7 @@ function Get-MaxOfMinEveryWindowSize {
     for ($i=0; $i -lt $n; $i++) { $next[$i] = $n }
     $stack.Clear()
     for ($i = $n - 1; $i -ge 0; $i--) {
-        while ($stack.Count -gt 0 -and $arr[$stack[$stack.Count-1]] -gt $arr[$i]) { $null = $stack.RemoveAt($stack.Count -1) }
+        while ($stack.Count -gt 0 -and $arr[$stack[$stack.Count-1]] -ge $arr[$i]) { $null = $stack.RemoveAt($stack.Count -1) }
         if ($stack.Count -gt 0) { $next[$i] = $stack[$stack.Count -1] } else { $next[$i] = $n }
         $stack.Add($i)
     }
