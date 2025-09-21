@@ -1,4 +1,4 @@
-# Max of min for every window size (GeeksforGeeks POTD — 22 Sep 2025)
+# Max of min for every window size (GeeksforGeeks POTD - 22 Sep 2025)
 
 Problem:
 Given an integer array arr[], for every window size k (1..n) compute the maximum among
