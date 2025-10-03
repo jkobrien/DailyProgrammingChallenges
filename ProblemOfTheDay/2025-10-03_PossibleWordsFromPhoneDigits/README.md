@@ -69,7 +69,7 @@ This problem can be solved using **iterative combination generation** approach:
 3. Return sorted results
 
 ### Time Complexity: O(3^N × 4^M)
-- Where N is the number of digits mapping to 3 letters (2,3,4,5,6,8,9)
+- Where N is the number of digits mapping to 3 letters (2,3,4,5,6,8)
 - Where M is the number of digits mapping to 4 letters (7,9)
 - In worst case: O(4^N) where N is length of input
 
