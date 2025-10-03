@@ -189,7 +189,9 @@ function Benchmark-PossibleWords {
 }
 
 # Main execution
-if ($MyInvocation.InvocationName -ne '.') {
+# If the script is not dot-sourced (i.e., executed directly), run tests and benchmarks.
+$DotSourceInvocationName = '.'
+if ($MyInvocation.InvocationName -ne $DotSourceInvocationName) {
     # Run tests when script is executed directly
     Test-PossibleWords
     Benchmark-PossibleWords
