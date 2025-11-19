@@ -1,0 +1,7 @@
+- [ ] Fetch today's GeeksforGeeks POTD statement
+- [ ] Extract sample input/output
+- [ ] Create new folder for today's POTD
+- [ ] Write PowerShell solution script
+- [ ] Write explanation (README.md)
+- [ ] Write test script for solution
+- [ ] Verify solution and tests
