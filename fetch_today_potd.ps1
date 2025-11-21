@@ -31,9 +31,9 @@ try {
         if ($html -match '<meta property="og:description" content="([^"]+)"') {
             $ogDesc = $matches[1]
         }
-        #Write-Host "`nTitle: $ogTitle" -ForegroundColor Cyan
-        #Write-Host "`nDescription: $ogDesc" -ForegroundColor Cyan
-        return $ogDesc
+        Write-Host "`nTitle: $ogTitle" -ForegroundColor Cyan
+        Write-Host "`nDescription: $ogDesc" -ForegroundColor Cyan
+        return $response.problem_url
     }
 } catch {
     Write-Host "Error fetching problem: $_" -ForegroundColor Red
