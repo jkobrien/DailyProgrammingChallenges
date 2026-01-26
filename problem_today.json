@@ -1,1 +1,24 @@
-{"id":1888,"date":"2025-12-30 00:00:00","is_solved":false,"problem_id":700043,"problem_name":"Add Number Linked Lists","problem_url":"https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1","difficulty":"Medium","tags":{"company_tags":["Flipkart","Morgan Stanley","Accolite","Amazon","Microsoft","Snapdeal","MakeMyTrip","Qualcomm"],"topic_tags":["Linked List","Data Structures","two-pointer-algorithm"]},"remaining_time":25735,"end_date":"2025-12-30 23:59:59","accuracy":34.52,"total_submissions":370751,"is_time_machine_reward_active":true}
+﻿{
+    "id":  1915,
+    "date":  "2026-01-26 00:00:00",
+    "is_solved":  false,
+    "problem_id":  912451,
+    "problem_name":  "Generate Permutations of an array",
+    "problem_url":  "https://www.geeksforgeeks.org/problems/generate-permutations-of-an-array/1",
+    "difficulty":  "Medium",
+    "tags":  {
+                 "company_tags":  [
+
+                                  ],
+                 "topic_tags":  [
+                                    "Backtracking",
+                                    "Arrays",
+                                    "Recursion"
+                                ]
+             },
+    "remaining_time":  29927,
+    "end_date":  "2026-01-26 23:59:59",
+    "accuracy":  83.86,
+    "total_submissions":  5488,
+    "is_time_machine_reward_active":  true
+}
