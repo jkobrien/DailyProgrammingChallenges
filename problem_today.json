@@ -1,24 +1,30 @@
 ﻿{
-    "id":  1915,
-    "date":  "2026-01-26 00:00:00",
+    "id":  1930,
+    "date":  "2026-02-10 00:00:00",
     "is_solved":  false,
-    "problem_id":  912451,
-    "problem_name":  "Generate Permutations of an array",
-    "problem_url":  "https://www.geeksforgeeks.org/problems/generate-permutations-of-an-array/1",
+    "problem_id":  712107,
+    "problem_name":  "Koko Eating Bananas",
+    "problem_url":  "https://www.geeksforgeeks.org/problems/koko-eating-bananas/1",
     "difficulty":  "Medium",
     "tags":  {
                  "company_tags":  [
-
+                                      "Bloomberg",
+                                      "Amazon",
+                                      "Microsoft",
+                                      "Walmart",
+                                      "Adobe",
+                                      "Arcesium",
+                                      "Uber",
+                                      "NPCI"
                                   ],
                  "topic_tags":  [
-                                    "Backtracking",
-                                    "Arrays",
-                                    "Recursion"
+                                    "Binary Search",
+                                    "Arrays"
                                 ]
              },
-    "remaining_time":  29927,
-    "end_date":  "2026-01-26 23:59:59",
-    "accuracy":  83.86,
-    "total_submissions":  5488,
+    "remaining_time":  17738,
+    "end_date":  "2026-02-10 23:59:59",
+    "accuracy":  50.27,
+    "total_submissions":  51148,
     "is_time_machine_reward_active":  true
 }
