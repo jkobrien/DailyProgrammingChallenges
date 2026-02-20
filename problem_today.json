@@ -1,30 +1,28 @@
 ﻿{
-    "id":  1930,
-    "date":  "2026-02-10 00:00:00",
+    "id":  1943,
+    "date":  "2026-02-20 00:00:00",
     "is_solved":  false,
-    "problem_id":  712107,
-    "problem_name":  "Koko Eating Bananas",
-    "problem_url":  "https://www.geeksforgeeks.org/problems/koko-eating-bananas/1",
+    "problem_id":  702886,
+    "problem_name":  "Form the Largest Number",
+    "problem_url":  "https://www.geeksforgeeks.org/problems/largest-number-formed-from-an-array1117/1",
     "difficulty":  "Medium",
     "tags":  {
                  "company_tags":  [
-                                      "Bloomberg",
+                                      "Paytm",
+                                      "Zoho",
                                       "Amazon",
                                       "Microsoft",
-                                      "Walmart",
-                                      "Adobe",
-                                      "Arcesium",
-                                      "Uber",
-                                      "NPCI"
+                                      "MakeMyTrip"
                                   ],
                  "topic_tags":  [
-                                    "Binary Search",
-                                    "Arrays"
+                                    "Arrays",
+                                    "Data Structures",
+                                    "Sorting"
                                 ]
              },
-    "remaining_time":  17738,
-    "end_date":  "2026-02-10 23:59:59",
-    "accuracy":  50.27,
-    "total_submissions":  51148,
+    "remaining_time":  22801,
+    "end_date":  "2026-02-20 23:59:59",
+    "accuracy":  37.82,
+    "total_submissions":  197280,
     "is_time_machine_reward_active":  true
 }
