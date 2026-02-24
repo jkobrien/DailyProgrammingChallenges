@@ -1,28 +1,26 @@
 ﻿{
-    "id":  1943,
-    "date":  "2026-02-20 00:00:00",
+    "id":  1947,
+    "date":  "2026-02-24 00:00:00",
     "is_solved":  false,
-    "problem_id":  702886,
-    "problem_name":  "Form the Largest Number",
-    "problem_url":  "https://www.geeksforgeeks.org/problems/largest-number-formed-from-an-array1117/1",
+    "problem_id":  702727,
+    "problem_name":  "Longest Span in two Binary Arrays",
+    "problem_url":  "https://www.geeksforgeeks.org/problems/longest-span-with-same-sum-in-two-binary-arrays5142/1",
     "difficulty":  "Medium",
     "tags":  {
                  "company_tags":  [
-                                      "Paytm",
-                                      "Zoho",
-                                      "Amazon",
-                                      "Microsoft",
-                                      "MakeMyTrip"
+
                                   ],
                  "topic_tags":  [
+                                    "prefix-sum",
+                                    "sliding-window",
                                     "Arrays",
                                     "Data Structures",
-                                    "Sorting"
+                                    "Algorithms"
                                 ]
              },
-    "remaining_time":  22801,
-    "end_date":  "2026-02-20 23:59:59",
-    "accuracy":  37.82,
-    "total_submissions":  197280,
+    "remaining_time":  21734,
+    "end_date":  "2026-02-24 23:59:59",
+    "accuracy":  48.22,
+    "total_submissions":  33784,
     "is_time_machine_reward_active":  true
 }
