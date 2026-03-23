@@ -1,3 +1,4 @@
+
 # Course Schedule I - Problem of the Day (March 23, 2026)
 
 ## Problem Link
