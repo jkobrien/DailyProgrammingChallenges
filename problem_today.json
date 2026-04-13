@@ -1,26 +1,28 @@
 ﻿{
-    "id":  1947,
-    "date":  "2026-02-24 00:00:00",
+    "id":  1997,
+    "date":  "2026-04-13 00:00:00",
     "is_solved":  false,
-    "problem_id":  702727,
-    "problem_name":  "Longest Span in two Binary Arrays",
-    "problem_url":  "https://www.geeksforgeeks.org/problems/longest-span-with-same-sum-in-two-binary-arrays5142/1",
-    "difficulty":  "Medium",
+    "problem_id":  702778,
+    "problem_name":  "Next Smallest Palindrome",
+    "problem_url":  "https://www.geeksforgeeks.org/problems/next-smallest-palindrome4740/1",
+    "difficulty":  "Hard",
     "tags":  {
                  "company_tags":  [
-
+                                      "Flipkart",
+                                      "Amazon",
+                                      "Microsoft",
+                                      "OYO Rooms",
+                                      "Adobe",
+                                      "Media.net"
                                   ],
                  "topic_tags":  [
-                                    "prefix-sum",
-                                    "sliding-window",
                                     "Arrays",
-                                    "Data Structures",
-                                    "Algorithms"
+                                    "Data Structures"
                                 ]
              },
-    "remaining_time":  21734,
-    "end_date":  "2026-02-24 23:59:59",
-    "accuracy":  48.22,
-    "total_submissions":  33784,
+    "remaining_time":  25901,
+    "end_date":  "2026-04-13 23:59:59",
+    "accuracy":  19.63,
+    "total_submissions":  70147,
     "is_time_machine_reward_active":  true
 }
